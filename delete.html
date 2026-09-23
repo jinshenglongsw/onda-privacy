@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onda 데이터 삭제 요청</title>
+<style>
+body{font-family:-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;line-height:1.7;color:#222}
+h1{font-size:1.5rem}h2{font-size:1.1rem;margin-top:2rem}.muted{color:#666;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Onda 데이터 삭제 요청 방법</h1>
+<p class="muted">앱: Onda (서울 지하철 실시간) · 개발자: JinShenglong</p>
+
+<p>Onda는 회원가입이 없어 계정이 없습니다. 서버에 남는 정보를 삭제하려면 아래 방법 중 하나를 이용해 주세요.</p>
+
+<h2>방법 1. 앱에서 바로 삭제</h2>
+<ol>
+<li>진행 중인 통근을 <b>종료</b>하면 서버의 통근 경로가 즉시 삭제됩니다.</li>
+<li>앱을 <b>삭제</b>하면 기기에 저장된 설정·즐겨찾기가 모두 삭제되고, 푸시 알림 토큰도 더 이상 쓰이지 않습니다.</li>
+</ol>
+
+<h2>방법 2. 이메일로 요청</h2>
+<ol>
+<li><b>newlifeoldsong@gmail.com</b> 으로 제목 "Onda 데이터 삭제 요청"을 보내 주세요.</li>
+<li>요청을 받은 날부터 <b>7일 이내</b>에 서버에 남아 있는 관련 기록을 삭제하고 답장드립니다.</li>
+</ol>
+
+<h2>삭제되는 정보</h2>
+<ul>
+<li>통근 경로(출발·도착역, 탑승 열차 번호)</li>
+<li>푸시 알림 토큰</li>
+<li>서버 운영 기록 중 해당 토큰과 관련된 줄</li>
+</ul>
+
+<h2>보관되는 정보</h2>
+<ul>
+<li>오류 기록(크래시 로그)은 개인을 식별하지 않는 형태로 Google Firebase Crashlytics에 보관되며, 최대 90일 후 자동 삭제됩니다.</li>
+</ul>
+
+<p class="muted">English: Onda has no accounts. End your commute in the app to delete your route from our server immediately, or email newlifeoldsong@gmail.com with the subject "Onda data deletion" and we will delete related server records within 7 days. Crash logs are kept by Firebase Crashlytics for up to 90 days.</p>
+<p><a href="./">개인정보처리방침 보기</a></p>
+</body>
+</html>
